@@ -1,0 +1,73 @@
+2014/09/23 11:48:53 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'trackstar.tbl_migration' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_migration`.
+2014/09/23 11:49:01 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'String NOT NULL,
+	`description` text NOT NULL,
+	`create_time` datetime DEFAULT N' at line 3. The SQL statement executed was: CREATE TABLE `project` (
+	`id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`name` String NOT NULL,
+	`description` text NOT NULL,
+	`create_time` datetime DEFAULT NULL,
+	`create_user_id` int(11) DEFAULT NULL,
+	`update_time` datetime DEFAULT NULL,
+	`update_user_id` int(11) DEFAULT NULL
+) ENGINE=InnoDB.
+2014/09/23 11:49:01 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'String NOT NULL,
+	`description` text NOT NULL,
+	`create_time` datetime DEFAULT N' at line 3. The SQL statement executed was: CREATE TABLE `project` (
+	`id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`name` String NOT NULL,
+	`description` text NOT NULL,
+	`create_time` datetime DEFAULT NULL,
+	`create_user_id` int(11) DEFAULT NULL,
+	`update_time` datetime DEFAULT NULL,
+	`update_user_id` int(11) DEFAULT NULL
+) ENGINE=InnoDB' in /var/www/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/yii/framework/db/CDbCommand.php(1324): CDbCommand->execute()
+#1 /var/www/yii/framework/db/CDbMigration.php(233): CDbCommand->createTable('project', Array, 'ENGINE=InnoDB')
+#2 /var/www/yii/trackstar/protected/migrations/m140923_061138_projet_table.php(15): CDbMigration->createTable('project', Array, 'ENGINE=InnoDB')
+#3 /var/www/yii/framework/cli/commands/MigrateCommand.php(385): m140923_061138_projet_table->up()
+#4 /var/www/yii/framework/cli/commands/MigrateCommand.php(109): MigrateCommand->migrateUp('m140923_061138_...')
+#5 [internal function]: MigrateCommand->actionUp(Array)
+#6 /var/www/yii/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 /var/www/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /var/www/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /var/www/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#10 /var/www/yii/framework/yiic.php(33): CApplication->run()
+#11 /var/www/yii/trackstar/protected/yiic.php(7): require_once('/var/www/yii/fr...')
+#12 /var/www/yii/trackstar/protected/yiic(4): require_once('/var/www/yii/tr...')
+#13 {main}
+---
+2014/09/23 11:51:21 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'project' already exists. The SQL statement executed was: CREATE TABLE `project` (
+	`id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`name` varchar(255) NOT NULL,
+	`description` text NOT NULL,
+	`create_time` datetime DEFAULT NULL,
+	`create_user_id` int(11) DEFAULT NULL,
+	`update_time` datetime DEFAULT NULL,
+	`update_user_id` int(11) DEFAULT NULL
+) ENGINE=InnoDB.
+2014/09/23 11:51:21 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'project' already exists. The SQL statement executed was: CREATE TABLE `project` (
+	`id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`name` varchar(255) NOT NULL,
+	`description` text NOT NULL,
+	`create_time` datetime DEFAULT NULL,
+	`create_user_id` int(11) DEFAULT NULL,
+	`update_time` datetime DEFAULT NULL,
+	`update_user_id` int(11) DEFAULT NULL
+) ENGINE=InnoDB' in /var/www/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/yii/framework/db/CDbCommand.php(1324): CDbCommand->execute()
+#1 /var/www/yii/framework/db/CDbMigration.php(233): CDbCommand->createTable('project', Array, 'ENGINE=InnoDB')
+#2 /var/www/yii/trackstar/protected/migrations/m140923_061138_projet_table.php(15): CDbMigration->createTable('project', Array, 'ENGINE=InnoDB')
+#3 /var/www/yii/framework/cli/commands/MigrateCommand.php(385): m140923_061138_projet_table->up()
+#4 /var/www/yii/framework/cli/commands/MigrateCommand.php(109): MigrateCommand->migrateUp('m140923_061138_...')
+#5 [internal function]: MigrateCommand->actionUp(Array)
+#6 /var/www/yii/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#7 /var/www/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#8 /var/www/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /var/www/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#10 /var/www/yii/framework/yiic.php(33): CApplication->run()
+#11 /var/www/yii/trackstar/protected/yiic.php(7): require_once('/var/www/yii/fr...')
+#12 /var/www/yii/trackstar/protected/yiic(4): require_once('/var/www/yii/tr...')
+#13 {main}
+---

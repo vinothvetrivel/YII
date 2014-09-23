@@ -1,0 +1,161 @@
+2014/09/22 11:02:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('helloMessage')
+#3 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yii/testdrive/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/testdrive/index.php?r=helloMessage
+HTTP_REFERER=http://localhost/yii/testdrive/index.php?r=gii/controller/index
+---
+2014/09/22 11:20:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "hello1".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('helloMessage')
+#3 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yii/testdrive/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/testdrive/index.php?r=helloMessage
+---
+2014/09/22 11:20:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "hello".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('helloMessage')
+#3 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yii/testdrive/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/testdrive/index.php?r=helloMessage
+---
+2014/09/22 11:56:47 [error] [php] Undefined variable: time (/var/www/yii/testdrive/protected/views/helloMessage/hello.php:17)
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(869): HelloMessageController->renderFile()
+#1 /var/www/yii/framework/web/CController.php(782): HelloMessageController->renderPartial()
+#2 /var/www/yii/testdrive/protected/controllers/HelloMessageController.php(11): HelloMessageController->render()
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(49): HelloMessageController->actionHello()
+#4 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yii/framework/web/CController.php(286): HelloMessageController->runAction()
+#6 /var/www/yii/framework/web/CController.php(265): HelloMessageController->runActionWithFilters()
+#7 /var/www/yii/framework/web/CWebApplication.php(282): HelloMessageController->run()
+#8 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /var/www/yii/testdrive/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/testdrive/index.php?r=helloMessage
+in /var/www/yii/testdrive/protected/views/helloMessage/hello.php (17)
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (11)
+in /var/www/yii/testdrive/index.php (13)
+2014/09/22 12:00:35 [error] [exception.CException] exception 'CException' with message 'Property "HelloMessageController._time" is not defined.' in /var/www/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /var/www/yii/testdrive/protected/controllers/HelloMessageController.php(9): CComponent->__set('_time', 'Mon Sep 22 12:0...')
+#1 /var/www/yii/framework/web/actions/CInlineAction.php(49): HelloMessageController->actionHello()
+#2 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#4 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('')
+#6 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('helloMessage')
+#7 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /var/www/yii/testdrive/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yii/testdrive/index.php?r=helloMessage
+---
+2014/09/22 12:00:36 [error] [exception.CException] exception 'CException' with message 'Property "HelloMessageController._time" is not defined.' in /var/www/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /var/www/yii/testdrive/protected/controllers/HelloMessageController.php(9): CComponent->__set('_time', 'Mon Sep 22 12:0...')
+#1 /var/www/yii/framework/web/actions/CInlineAction.php(49): HelloMessageController->actionHello()
+#2 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#4 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('')
+#6 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('helloMessage')
+#7 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /var/www/yii/testdrive/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yii/testdrive/index.php?r=helloMessage
+---
+2014/09/22 12:00:36 [error] [exception.CException] exception 'CException' with message 'Property "HelloMessageController._time" is not defined.' in /var/www/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /var/www/yii/testdrive/protected/controllers/HelloMessageController.php(9): CComponent->__set('_time', 'Mon Sep 22 12:0...')
+#1 /var/www/yii/framework/web/actions/CInlineAction.php(49): HelloMessageController->actionHello()
+#2 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#4 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('')
+#6 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('helloMessage')
+#7 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /var/www/yii/testdrive/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yii/testdrive/index.php?r=helloMessage
+---
+2014/09/22 12:00:36 [error] [exception.CException] exception 'CException' with message 'Property "HelloMessageController._time" is not defined.' in /var/www/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /var/www/yii/testdrive/protected/controllers/HelloMessageController.php(9): CComponent->__set('_time', 'Mon Sep 22 12:0...')
+#1 /var/www/yii/framework/web/actions/CInlineAction.php(49): HelloMessageController->actionHello()
+#2 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#4 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('')
+#6 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('helloMessage')
+#7 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /var/www/yii/testdrive/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yii/testdrive/index.php?r=helloMessage
+---
+2014/09/22 12:00:36 [error] [exception.CException] exception 'CException' with message 'Property "HelloMessageController._time" is not defined.' in /var/www/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /var/www/yii/testdrive/protected/controllers/HelloMessageController.php(9): CComponent->__set('_time', 'Mon Sep 22 12:0...')
+#1 /var/www/yii/framework/web/actions/CInlineAction.php(49): HelloMessageController->actionHello()
+#2 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#4 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('')
+#6 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('helloMessage')
+#7 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /var/www/yii/testdrive/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yii/testdrive/index.php?r=helloMessage
+---
+2014/09/22 12:00:36 [error] [exception.CException] exception 'CException' with message 'Property "HelloMessageController._time" is not defined.' in /var/www/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /var/www/yii/testdrive/protected/controllers/HelloMessageController.php(9): CComponent->__set('_time', 'Mon Sep 22 12:0...')
+#1 /var/www/yii/framework/web/actions/CInlineAction.php(49): HelloMessageController->actionHello()
+#2 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#4 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('')
+#6 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('helloMessage')
+#7 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /var/www/yii/testdrive/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yii/testdrive/index.php?r=helloMessage
+---
+2014/09/22 12:00:36 [error] [exception.CException] exception 'CException' with message 'Property "HelloMessageController._time" is not defined.' in /var/www/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /var/www/yii/testdrive/protected/controllers/HelloMessageController.php(9): CComponent->__set('_time', 'Mon Sep 22 12:0...')
+#1 /var/www/yii/framework/web/actions/CInlineAction.php(49): HelloMessageController->actionHello()
+#2 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#4 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('')
+#6 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('helloMessage')
+#7 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /var/www/yii/testdrive/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yii/testdrive/index.php?r=helloMessage
+---
+2014/09/22 12:16:24 [error] [exception.CException] exception 'CException' with message 'HelloMessageController cannot find the requested view "bye.php".' in /var/www/yii/framework/web/CController.php:878
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(782): CController->renderPartial('bye.php', NULL, true)
+#1 /var/www/yii/testdrive/protected/controllers/HelloMessageController.php(17): CController->render('bye.php')
+#2 /var/www/yii/framework/web/actions/CInlineAction.php(49): HelloMessageController->actionBye()
+#3 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('bye')
+#7 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('helloMessage/by...')
+#8 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /var/www/yii/testdrive/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii/testdrive/index.php?r=helloMessage/bye
+---

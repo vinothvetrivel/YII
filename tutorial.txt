@@ -1,0 +1,56 @@
+/***************************************
+			YII Framework
+***************************************/
+
+YII framework is a php framework. This framework will tightly intergrate with CMS, unit testcase.
+
+To Create New Projet:-
+======================
+1) Go to framework folder
+2) ./yiic webapp ../project_name
+
+To create Modules:-
+====================
+1) Enable GII in config/main.php
+2) Go to http://localhost/project_name/index.php?r=gii
+
+r = represet module
+value = represent the module need to be call
+
+To Create a link of module:-
+==============================
+
+<p><?php echo CHtml::link('Goodbye'array('message/goodbye')); ?></p>
+
+
+To Create database connection:-
+===================================
+1) The config/main.php will have database configuration
+
+
+To Create php unit testcase:-
+=============================
+1) Install php-unit test case
+2) Install phpunit-selenium
+3) Go to termainal enable YII shell
+
+	./protected/yiic shell
+
+4)	Run command
+	echo Yii::app()->db->connectionString;
+
+5) This unit test case file will create in the folder /protected/test/unit/
+
+
+
+To Create database migration script:-
+========================================
+1) Create migration
+	
+	./protected/yiic migrate create file_name
+
+2) This file will create in /protected/migration folder
+
+3) 	Run command
+
+	./yiic migrate
