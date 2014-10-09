@@ -39,7 +39,7 @@ To Create php unit testcase:-
 4)	Run command
 	echo Yii::app()->db->connectionString;
 
-5) This unit test case file will create in the folder /protected/test/unit/
+5) This unit test case file will create in the folder "/protected/test/unit/"
 
 
 
@@ -49,8 +49,15 @@ To Create database migration script:-
 	
 	./protected/yiic migrate create file_name
 
-2) This file will create in /protected/migration folder
+2) This file will create in "/protected/migration/" folder
 
 3) 	Run command
 
 	./yiic migrate
+
+To Create model:-
+================
+1) Enable gii interface
+2) Click model interface
+3) Enter table name 
+4) Click preview and generate. It will create the model file in "/protected/models/" folder

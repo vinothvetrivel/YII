@@ -159,3 +159,477 @@ Stack trace:
 #10 {main}
 REQUEST_URI=/yii/testdrive/index.php?r=helloMessage/bye
 ---
+2014/09/30 12:38:23 [error] [php] require_once(xajax/xajax_core/xajax.inc.php): failed to open stream: No such file or directory (/var/www/yii/testdrive/protected/controllers/HelloMessageController.php:3)
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#1 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#2 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#3 /var/www/yii/testdrive/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/testdrive/index.php?r=helloMessage
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/index.php (13)
+2014/09/30 12:38:56 [error] [php] require_once(xajax/xajax_core/xajax.inc.php): failed to open stream: No such file or directory (/var/www/yii/testdrive/protected/controllers/HelloMessageController.php:3)
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#1 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#2 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#3 /var/www/yii/testdrive/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/testdrive/index.php?r=helloMessage
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/index.php (13)
+2014/09/30 12:38:56 [error] [php] require_once(xajax/xajax_core/xajax.inc.php): failed to open stream: No such file or directory (/var/www/yii/testdrive/protected/controllers/HelloMessageController.php:3)
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#1 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#2 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#3 /var/www/yii/testdrive/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/testdrive/index.php?r=helloMessage
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/index.php (13)
+2014/09/30 12:38:57 [error] [php] require_once(xajax/xajax_core/xajax.inc.php): failed to open stream: No such file or directory (/var/www/yii/testdrive/protected/controllers/HelloMessageController.php:3)
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#1 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#2 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#3 /var/www/yii/testdrive/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/testdrive/index.php?r=helloMessage
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/index.php (13)
+2014/09/30 12:38:57 [error] [php] require_once(xajax/xajax_core/xajax.inc.php): failed to open stream: No such file or directory (/var/www/yii/testdrive/protected/controllers/HelloMessageController.php:3)
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#1 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#2 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#3 /var/www/yii/testdrive/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/testdrive/index.php?r=helloMessage
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/index.php (13)
+2014/09/30 12:38:57 [error] [php] require_once(xajax/xajax_core/xajax.inc.php): failed to open stream: No such file or directory (/var/www/yii/testdrive/protected/controllers/HelloMessageController.php:3)
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#1 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#2 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#3 /var/www/yii/testdrive/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/testdrive/index.php?r=helloMessage
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/index.php (13)
+2014/09/30 12:38:57 [error] [php] require_once(xajax/xajax_core/xajax.inc.php): failed to open stream: No such file or directory (/var/www/yii/testdrive/protected/controllers/HelloMessageController.php:3)
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#1 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#2 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#3 /var/www/yii/testdrive/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/testdrive/index.php?r=helloMessage
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/index.php (13)
+2014/09/30 12:38:57 [error] [php] require_once(xajax/xajax_core/xajax.inc.php): failed to open stream: No such file or directory (/var/www/yii/testdrive/protected/controllers/HelloMessageController.php:3)
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#1 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#2 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#3 /var/www/yii/testdrive/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/testdrive/index.php?r=helloMessage
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/index.php (13)
+2014/09/30 12:38:57 [error] [php] require_once(xajax/xajax_core/xajax.inc.php): failed to open stream: No such file or directory (/var/www/yii/testdrive/protected/controllers/HelloMessageController.php:3)
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#1 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#2 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#3 /var/www/yii/testdrive/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/testdrive/index.php?r=helloMessage
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/index.php (13)
+2014/09/30 12:38:57 [error] [php] require_once(xajax/xajax_core/xajax.inc.php): failed to open stream: No such file or directory (/var/www/yii/testdrive/protected/controllers/HelloMessageController.php:3)
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#1 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#2 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#3 /var/www/yii/testdrive/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/testdrive/index.php?r=helloMessage
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/index.php (13)
+2014/09/30 12:38:57 [error] [php] require_once(xajax/xajax_core/xajax.inc.php): failed to open stream: No such file or directory (/var/www/yii/testdrive/protected/controllers/HelloMessageController.php:3)
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#1 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#2 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#3 /var/www/yii/testdrive/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/testdrive/index.php?r=helloMessage
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/index.php (13)
+2014/09/30 12:38:57 [error] [php] require_once(xajax/xajax_core/xajax.inc.php): failed to open stream: No such file or directory (/var/www/yii/testdrive/protected/controllers/HelloMessageController.php:3)
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#1 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#2 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#3 /var/www/yii/testdrive/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/testdrive/index.php?r=helloMessage
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/index.php (13)
+2014/09/30 12:38:57 [error] [php] require_once(xajax/xajax_core/xajax.inc.php): failed to open stream: No such file or directory (/var/www/yii/testdrive/protected/controllers/HelloMessageController.php:3)
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#1 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#2 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#3 /var/www/yii/testdrive/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/testdrive/index.php?r=helloMessage
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/index.php (13)
+2014/09/30 12:38:57 [error] [php] require_once(xajax/xajax_core/xajax.inc.php): failed to open stream: No such file or directory (/var/www/yii/testdrive/protected/controllers/HelloMessageController.php:3)
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#1 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#2 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#3 /var/www/yii/testdrive/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/testdrive/index.php?r=helloMessage
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/index.php (13)
+2014/09/30 12:38:57 [error] [php] require_once(xajax/xajax_core/xajax.inc.php): failed to open stream: No such file or directory (/var/www/yii/testdrive/protected/controllers/HelloMessageController.php:3)
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#1 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#2 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#3 /var/www/yii/testdrive/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/testdrive/index.php?r=helloMessage
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/index.php (13)
+2014/09/30 12:38:57 [error] [php] require_once(xajax/xajax_core/xajax.inc.php): failed to open stream: No such file or directory (/var/www/yii/testdrive/protected/controllers/HelloMessageController.php:3)
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#1 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#2 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#3 /var/www/yii/testdrive/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/testdrive/index.php?r=helloMessage
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/index.php (13)
+2014/09/30 12:38:57 [error] [php] require_once(xajax/xajax_core/xajax.inc.php): failed to open stream: No such file or directory (/var/www/yii/testdrive/protected/controllers/HelloMessageController.php:3)
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#1 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#2 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#3 /var/www/yii/testdrive/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/testdrive/index.php?r=helloMessage
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/index.php (13)
+2014/09/30 12:38:57 [error] [php] require_once(xajax/xajax_core/xajax.inc.php): failed to open stream: No such file or directory (/var/www/yii/testdrive/protected/controllers/HelloMessageController.php:3)
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#1 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#2 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#3 /var/www/yii/testdrive/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/testdrive/index.php?r=helloMessage
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/index.php (13)
+2014/09/30 12:38:57 [error] [php] require_once(xajax/xajax_core/xajax.inc.php): failed to open stream: No such file or directory (/var/www/yii/testdrive/protected/controllers/HelloMessageController.php:3)
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#1 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#2 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#3 /var/www/yii/testdrive/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/testdrive/index.php?r=helloMessage
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/index.php (13)
+2014/09/30 12:38:57 [error] [php] require_once(xajax/xajax_core/xajax.inc.php): failed to open stream: No such file or directory (/var/www/yii/testdrive/protected/controllers/HelloMessageController.php:3)
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#1 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#2 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#3 /var/www/yii/testdrive/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/testdrive/index.php?r=helloMessage
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/index.php (13)
+2014/09/30 12:38:57 [error] [php] require_once(xajax/xajax_core/xajax.inc.php): failed to open stream: No such file or directory (/var/www/yii/testdrive/protected/controllers/HelloMessageController.php:3)
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#1 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#2 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#3 /var/www/yii/testdrive/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/testdrive/index.php?r=helloMessage
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/index.php (13)
+2014/09/30 12:38:57 [error] [php] require_once(xajax/xajax_core/xajax.inc.php): failed to open stream: No such file or directory (/var/www/yii/testdrive/protected/controllers/HelloMessageController.php:3)
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#1 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#2 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#3 /var/www/yii/testdrive/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/testdrive/index.php?r=helloMessage
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/index.php (13)
+2014/09/30 12:38:57 [error] [php] require_once(xajax/xajax_core/xajax.inc.php): failed to open stream: No such file or directory (/var/www/yii/testdrive/protected/controllers/HelloMessageController.php:3)
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#1 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#2 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#3 /var/www/yii/testdrive/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/testdrive/index.php?r=helloMessage
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/index.php (13)
+2014/09/30 12:38:58 [error] [php] require_once(xajax/xajax_core/xajax.inc.php): failed to open stream: No such file or directory (/var/www/yii/testdrive/protected/controllers/HelloMessageController.php:3)
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#1 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#2 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#3 /var/www/yii/testdrive/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/testdrive/index.php?r=helloMessage
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/index.php (13)
+2014/09/30 12:39:51 [error] [php] require_once(xajax/xajax_core/xajax.inc.php): failed to open stream: No such file or directory (/var/www/yii/testdrive/protected/controllers/HelloMessageController.php:3)
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#1 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#2 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#3 /var/www/yii/testdrive/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/testdrive/index.php?r=helloMessage
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/index.php (13)
+2014/09/30 12:39:52 [error] [php] require_once(xajax/xajax_core/xajax.inc.php): failed to open stream: No such file or directory (/var/www/yii/testdrive/protected/controllers/HelloMessageController.php:3)
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#1 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#2 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#3 /var/www/yii/testdrive/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/testdrive/index.php?r=helloMessage
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/index.php (13)
+2014/09/30 12:39:52 [error] [php] require_once(xajax/xajax_core/xajax.inc.php): failed to open stream: No such file or directory (/var/www/yii/testdrive/protected/controllers/HelloMessageController.php:3)
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#1 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#2 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#3 /var/www/yii/testdrive/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/testdrive/index.php?r=helloMessage
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/index.php (13)
+2014/09/30 12:39:52 [error] [php] require_once(xajax/xajax_core/xajax.inc.php): failed to open stream: No such file or directory (/var/www/yii/testdrive/protected/controllers/HelloMessageController.php:3)
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#1 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#2 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#3 /var/www/yii/testdrive/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/testdrive/index.php?r=helloMessage
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/index.php (13)
+2014/09/30 12:39:52 [error] [php] require_once(xajax/xajax_core/xajax.inc.php): failed to open stream: No such file or directory (/var/www/yii/testdrive/protected/controllers/HelloMessageController.php:3)
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#1 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#2 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#3 /var/www/yii/testdrive/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/testdrive/index.php?r=helloMessage
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/index.php (13)
+2014/09/30 12:39:52 [error] [php] require_once(xajax/xajax_core/xajax.inc.php): failed to open stream: No such file or directory (/var/www/yii/testdrive/protected/controllers/HelloMessageController.php:3)
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#1 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#2 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#3 /var/www/yii/testdrive/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/testdrive/index.php?r=helloMessage
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/index.php (13)
+2014/09/30 12:39:52 [error] [php] require_once(xajax/xajax_core/xajax.inc.php): failed to open stream: No such file or directory (/var/www/yii/testdrive/protected/controllers/HelloMessageController.php:3)
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#1 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#2 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#3 /var/www/yii/testdrive/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/testdrive/index.php?r=helloMessage
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/index.php (13)
+2014/09/30 12:39:52 [error] [php] require_once(xajax/xajax_core/xajax.inc.php): failed to open stream: No such file or directory (/var/www/yii/testdrive/protected/controllers/HelloMessageController.php:3)
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#1 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#2 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#3 /var/www/yii/testdrive/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/testdrive/index.php?r=helloMessage
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/index.php (13)
+2014/09/30 12:39:52 [error] [php] require_once(xajax/xajax_core/xajax.inc.php): failed to open stream: No such file or directory (/var/www/yii/testdrive/protected/controllers/HelloMessageController.php:3)
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#1 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#2 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#3 /var/www/yii/testdrive/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/testdrive/index.php?r=helloMessage
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/index.php (13)
+2014/09/30 12:39:52 [error] [php] require_once(xajax/xajax_core/xajax.inc.php): failed to open stream: No such file or directory (/var/www/yii/testdrive/protected/controllers/HelloMessageController.php:3)
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#1 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#2 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#3 /var/www/yii/testdrive/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/testdrive/index.php?r=helloMessage
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/index.php (13)
+2014/09/30 12:39:52 [error] [php] require_once(xajax/xajax_core/xajax.inc.php): failed to open stream: No such file or directory (/var/www/yii/testdrive/protected/controllers/HelloMessageController.php:3)
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#1 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#2 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#3 /var/www/yii/testdrive/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/testdrive/index.php?r=helloMessage
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/index.php (13)
+2014/09/30 12:39:52 [error] [php] require_once(xajax/xajax_core/xajax.inc.php): failed to open stream: No such file or directory (/var/www/yii/testdrive/protected/controllers/HelloMessageController.php:3)
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#1 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#2 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#3 /var/www/yii/testdrive/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/testdrive/index.php?r=helloMessage
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/index.php (13)
+2014/09/30 12:39:52 [error] [php] require_once(xajax/xajax_core/xajax.inc.php): failed to open stream: No such file or directory (/var/www/yii/testdrive/protected/controllers/HelloMessageController.php:3)
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#1 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#2 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#3 /var/www/yii/testdrive/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/testdrive/index.php?r=helloMessage
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/index.php (13)
+2014/09/30 12:39:52 [error] [php] require_once(xajax/xajax_core/xajax.inc.php): failed to open stream: No such file or directory (/var/www/yii/testdrive/protected/controllers/HelloMessageController.php:3)
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#1 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#2 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#3 /var/www/yii/testdrive/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/testdrive/index.php?r=helloMessage
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/index.php (13)
+2014/09/30 12:39:52 [error] [php] require_once(xajax/xajax_core/xajax.inc.php): failed to open stream: No such file or directory (/var/www/yii/testdrive/protected/controllers/HelloMessageController.php:3)
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#1 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#2 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#3 /var/www/yii/testdrive/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/testdrive/index.php?r=helloMessage
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/index.php (13)
+2014/09/30 12:39:52 [error] [php] require_once(xajax/xajax_core/xajax.inc.php): failed to open stream: No such file or directory (/var/www/yii/testdrive/protected/controllers/HelloMessageController.php:3)
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#1 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#2 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#3 /var/www/yii/testdrive/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/testdrive/index.php?r=helloMessage
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/index.php (13)
+2014/09/30 12:39:52 [error] [php] require_once(xajax/xajax_core/xajax.inc.php): failed to open stream: No such file or directory (/var/www/yii/testdrive/protected/controllers/HelloMessageController.php:3)
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#1 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#2 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#3 /var/www/yii/testdrive/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/testdrive/index.php?r=helloMessage
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/index.php (13)
+2014/09/30 12:39:52 [error] [php] require_once(xajax/xajax_core/xajax.inc.php): failed to open stream: No such file or directory (/var/www/yii/testdrive/protected/controllers/HelloMessageController.php:3)
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#1 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#2 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#3 /var/www/yii/testdrive/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/testdrive/index.php?r=helloMessage
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/index.php (13)
+2014/09/30 12:39:53 [error] [php] require_once(xajax/xajax_core/xajax.inc.php): failed to open stream: No such file or directory (/var/www/yii/testdrive/protected/controllers/HelloMessageController.php:3)
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#1 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#2 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#3 /var/www/yii/testdrive/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/testdrive/index.php?r=helloMessage
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/index.php (13)
+2014/09/30 12:39:53 [error] [php] require_once(xajax/xajax_core/xajax.inc.php): failed to open stream: No such file or directory (/var/www/yii/testdrive/protected/controllers/HelloMessageController.php:3)
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#1 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#2 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#3 /var/www/yii/testdrive/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/testdrive/index.php?r=helloMessage
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/index.php (13)
+2014/09/30 12:39:53 [error] [php] require_once(xajax/xajax_core/xajax.inc.php): failed to open stream: No such file or directory (/var/www/yii/testdrive/protected/controllers/HelloMessageController.php:3)
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#1 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#2 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#3 /var/www/yii/testdrive/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/testdrive/index.php?r=helloMessage
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/index.php (13)
+2014/09/30 12:39:53 [error] [php] require_once(xajax/xajax_core/xajax.inc.php): failed to open stream: No such file or directory (/var/www/yii/testdrive/protected/controllers/HelloMessageController.php:3)
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#1 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#2 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#3 /var/www/yii/testdrive/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/testdrive/index.php?r=helloMessage
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/protected/controllers/HelloMessageController.php (3)
+in /var/www/yii/testdrive/index.php (13)
+2014/09/30 12:41:09 [error] [exception.CException] exception 'CException' with message 'The asset "/var/www/yii/testdrive/protected/extensions/xajax/xajax_js/xajax_core.js" to be published does not exist.' in /var/www/yii/framework/web/CAssetManager.php:257
+Stack trace:
+#0 /var/www/yii/testdrive/protected/controllers/HelloMessageController.php(16): CAssetManager->publish('/var/www/yii/te...')
+#1 /var/www/yii/framework/web/actions/CInlineAction.php(49): HelloMessageController->actionHello()
+#2 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#4 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('')
+#6 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('helloMessage')
+#7 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /var/www/yii/testdrive/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yii/testdrive/index.php?r=helloMessage
+---
